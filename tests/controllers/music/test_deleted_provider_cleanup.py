@@ -57,7 +57,8 @@ async def _add_analysis_row(mass: MusicAssistant, item_id: str) -> None:
             "item_id": item_id,
             "provider": FS_INSTANCE,
             "aa_provider_domain": "loudness_analysis",
-            "analysis_data": "{}",
+            "header": "{}",
+            "payload": b"",
             "analysis_version": 1,
         },
     )
